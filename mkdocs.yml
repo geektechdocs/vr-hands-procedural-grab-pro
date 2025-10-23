@@ -1,11 +1,11 @@
 site_name: VR Hands Procedural Grab Pro
-site_url: https://sitename.example
+site_url: https://geektechdocs.github.io/vr-hands-procedural-grab-pro/
 theme:
 
   name: material
-  icon:
-  logo: images/logo.svg
-  favicon: images/Icon14x12Gold.svg
+  #icon:
+  #logo: images/logo.svg
+  #favicon: images/Icon14x12Gold.svg
   features:
     - toc.integrate
     - navigation.expand
@@ -14,15 +14,19 @@ theme:
   language: en
   palette:
     scheme: slate
-    primary: orange
+    primary: deep orange
     
 markdown_extensions:
   - admonition
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.keys
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - search
+  - glightbox

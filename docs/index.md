@@ -1,128 +1,82 @@
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=Nt12TXSlue4" target="_blank">
+  <a href="https://www.youtube.com/watch?v=QFCV_MboX9w" target="_blank">
     <img src="https://img.shields.io/badge/Watch%20Demo-YouTube-red?logo=youtube&style=for-the-badge" alt="Watch on YouTube">
   </a>
   &nbsp;
-  <a href="https://www.fab.com/listings/c4f462ba-0068-4961-8fa5-d76d192aa814" target="_blank">
-    <img src="https://img.shields.io/badge/Get%20on%20Fab-BPVarAssist-009688?logo=unrealengine&style=for-the-badge" alt="Get on Fab">
+  <a href="https://www.fab.com/listings/f57d68f6-0861-49a7-8c9c-bf45309ed5cd" target="_blank">
+    <img src="https://img.shields.io/badge/Get%20on%20Fab-VR Hands Procedural Grab Pro-009688?logo=unrealengine&style=for-the-badge" alt="Get on Fab">
   </a>
 </p>
 
-# BP Variable Assist
+# VR Hands Procedural Grab Pro
 
-:material-rocket-launch: *A minimal, modern Unreal Engine plugin for **ultra-fast Blueprint variable management**.*
-
-![Blueprint Variable Assist](ScreenShots/BlueprintVariable%20Assist.jpg)
+![VR Hands Procedural Grab Pro](ScreenShots/VRHandsProceduralGrabPro.jpg)
 
 ---
 
 
-## :material-star-outline: Features
+## :material-rocket-launch: Quick Start Guide
 
-- :material-plus-box-multiple-outline: **One-click variable creation**  
-  Add new variables instantly with a single click or hotkey.
+### :material-cog-outline: Step 1: Enable Plugin ###
 
-- :material-folder-outline: **Category-aware insertion**  
-  Adds variables directly to the category you choose—by button or by mouse hover.
+> :material-arrow-right-bold-outline: Plugins->Enable Plugin 
+> ![VR Hands Procedural Grab Pro](ScreenShots/EnablePlugin.jpg)
+---
 
-- :material-keyboard-outline: **Customizable hotkeys**  
-  Configure shortcuts for all variable types.
 
-- :material-dock-window: **Toolbar integration**  
-  Access plugin actions from the Blueprint Editor toolbar.
+###  :material-cog-outline: Step 2: Input Setup ###
 
-- :material-cog-outline: **Personalized workflow**  
-  Set your preferences, variable types, and icon theme.
+> 1. Go to "Plugins/VRHands:ProceduralGrabProContent/
+
+> 2. Move "Input" Folder to your actual game folder "Content"
+
+> ![VR Hands Procedural Grab Pro](ScreenShots/MoveInputToContent.jpg)
+*“This step is required because any input context used by the Enhanced Input system must be located inside the game’s Content folder, not the plugin’s Content, otherwise it won't detect input in packaged projects”*
 
 ---
 
-## :material-plus-box-multiple-outline: Add Variables by Button
+#### :material-cog-outline: Step 2.1 for UE 5.2
 
-### :material-arrow-right-bold-outline: Adding to Default Category
+> 1. In search bar type: *"PMI"*
 
-Add a private variable (with advanced display) to the **Default** category with one click:
+> 2. Set Mappable Input Config For XR to *"PMI_VRTemplateProcedural"*
 
-> ![Default Category Button](ScreenShots/DefaultCatButton.gif)  
-> :material-arrow-right-bold-outline: "Default" category  
-> :material-checkbox-marked-outline: Private :material-checkbox-marked-outline: Advanced Display
+![VR Hands Procedural Grab Pro](ScreenShots/InputUE5.2PMI.jpg)
 
 ---
+#### :material-cog-outline: Step 2.1 for UE 5.3-5.6 ####
 
-### :material-arrow-right-bold-outline: Adding to Custom Category
+> 1. In search bar type: *"Input" or "Default Mapping Contexts"*
 
-Add a private variable (with advanced display) to any **custom** category you choose:
+> 2. Click three times on plus icon to add 3 items to array
 
-> ![Specific Category Button](ScreenShots/SpecificCatButton.gif)  
-> :material-arrow-right-bold-outline: :material-folder-outline: Specified category  
-> :material-checkbox-marked-outline: Private :material-checkbox-marked-outline: Advanced Display
+> 3. Add Contexts:
+"IMC_ProcGrab_Hand",
+"IMC_ProcGrab_Weapon_Left",
+"IMC_ProcGrab_Weapon_Right"
 
----
-
-## :material-keyboard-outline: Add Variables by Hotkey
-
-Assign hotkeys to instantly add variables of any type.  
-Supports both Default and hovered categories.
-
-| Hotkey                             | Variable Type    |
-|-------------------------------------|------------------|
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd> | Bool           |
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>2</kbd> | Int            |
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd> | Float          |
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd> | Vector         |
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>5</kbd> | Rotator        |
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>`</kbd> | Last Used Type |
+> ![VR Hands Procedural Grab Pro](ScreenShots/InputforUE5.3-5.6.jpg)
 
 ---
+### :material-dock-window: Step 3: Open Example Map ###
 
-### :material-arrow-right-bold-outline: Adding to Default Category (Hotkey)
+> Example map is located here: **"Plugins/VRHands:ProceduralGrabProContent/Example_Map"**
 
-> ![Hotkey Default Category](ScreenShots/HotkeyDefaultCat.gif)  
-> :material-arrow-right-bold-outline: "Default" category  
-> :material-checkbox-marked-outline: Private :material-checkbox-marked-outline: Advanced Display
-
----
-
-### :material-cursor-default-outline: Adding to Custom/Hovered Category (Hotkey)
-
-> ![Hotkey Hovered Category](ScreenShots/HotkeyHoveredCat.gif)  
-> :material-cursor-default-outline: Hovered category  
-> :material-checkbox-marked-outline: Private :material-checkbox-marked-outline: Advanced Display
-
----
-
-## :material-dock-window: Toolbar Integration
-
-Find the BPVarAssist button in your Blueprint Editor toolbar for quick access to plugin settings.
-
-> ![Toolbar Button](ScreenShots/ToolbarBtn.jpg)  
-> _BPVarAssist toolbar button in Blueprint Editor_
-
----
-
-## :material-cog-outline: Settings
-
-Personalize the plugin to fit your workflow.
-
-- :material-keyboard-outline: Remap hotkeys  
-- :material-vector-line: Set default variable types  
-- :material-palette-outline: Choose icon theme (Gold or Platinum)
-
-> ![Editor Preferences](ScreenShots/EditorPreferences.jpg)  
-> _Editor Preferences: BP Variable Assist plugin section_
+> ![VR Hands Procedural Grab Pro](ScreenShots/OpenLevel.jpg)
 
 ---
 
 ## :material-email-outline: Need Help?
 
-Contact [GeekTech](mailto:geektechcg@gmail.com) or visit [plugin website on fab](https://www.fab.com/listings/c4f462ba-0068-4961-8fa5-d76d192aa814) for updates and documentation.
+Contact [GeekTech](mailto:geektechcg@gmail.com) or visit [plugin website on fab](https://www.fab.com/listings/f57d68f6-0861-49a7-8c9c-bf45309ed5cd) for updates and documentation.
 
 ---
 
 <small>
-BPVarAssist is developed and maintained by GeekTech.  
-Compatible with Unreal Engine 5.1-5.6+
+Plugin is developed and maintained by GeekTech.  
+Compatible with Unreal Engine 5.2-5.6
 </small>
 
 ---
 
-*Ready to supercharge your Blueprint workflow? Get [**BPVarAssist**](https://www.fab.com/listings/c4f462ba-0068-4961-8fa5-d76d192aa814) now!*
+*Ready to supercharge your VR Project? Get [**VR Hands Procedural Grab Pro**](https://www.fab.com/listings/f57d68f6-0861-49a7-8c9c-bf45309ed5cd) now!*
