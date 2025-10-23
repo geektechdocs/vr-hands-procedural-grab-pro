@@ -9,6 +9,7 @@ theme:
   features:
     - toc.integrate
     - navigation.expand
+    - content.image.lightbox
    
 
   language: en
