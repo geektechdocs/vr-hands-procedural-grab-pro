@@ -1,5 +1,5 @@
 site_name: VR Hands Procedural Grab Pro
-site_url: https://geektechdocs.github.io/vr-hands-procedural-grab-pro/
+#site_url: https://geektechdocs.github.io/vr-hands-procedural-grab-pro/
 theme:
 
   name: material
