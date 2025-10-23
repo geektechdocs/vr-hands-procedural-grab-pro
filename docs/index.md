@@ -8,7 +8,7 @@
   </a>
 </p>
 
-# VR Hands Procedural Grab Pro
+# VR Hands Procedural Grab Prosss
 
 ![VR Hands Procedural Grab Pro](ScreenShots/VRHandsProceduralGrabPro.jpg)
 
