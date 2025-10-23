@@ -9,6 +9,8 @@ theme:
   features:
     - toc.integrate
     - navigation.expand
+  
+
    
 
   language: en
@@ -26,3 +28,4 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+ 
