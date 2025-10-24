@@ -3,12 +3,12 @@
     <img src="https://img.shields.io/badge/Watch%20Demo-YouTube-red?logo=youtube&style=for-the-badge" alt="Watch on YouTube">
   </a>
   &nbsp;
-  <a href="https://www.fab.com/listings/f57d68f6-0861-49a7-8c9c-bf45309ed5cd" target="_blank">
+  <a href="https://www.fab.com/listings/0d7009c6-ad1b-41d0-96d0-56ae95e59653" target="_blank">
     <img src="https://img.shields.io/badge/Get%20on%20Fab-VR Hands Procedural Grab Pro-009688?logo=unrealengine&style=for-the-badge" alt="Get on Fab">
   </a>
 </p>
 
-# VR Hands Procedural Grab Prosss
+# VR Hands Procedural Grab Pro
 
 ![VR Hands Procedural Grab Pro](ScreenShots/VRHandsProceduralGrabPro.jpg)
 
@@ -68,7 +68,7 @@
 
 ## :material-email-outline: Need Help?
 
-Contact [GeekTech](mailto:geektechcg@gmail.com) or visit [plugin website on fab](https://www.fab.com/listings/f57d68f6-0861-49a7-8c9c-bf45309ed5cd) for updates and documentation.
+Contact [GeekTech](mailto:geektechcg@gmail.com) or visit [plugin website on fab](https://www.fab.com/listings/0d7009c6-ad1b-41d0-96d0-56ae95e59653) for updates and documentation.
 
 ---
 
@@ -79,4 +79,4 @@ Compatible with Unreal Engine 5.2-5.6
 
 ---
 
-*Ready to supercharge your VR Project? Get [**VR Hands Procedural Grab Pro**](https://www.fab.com/listings/f57d68f6-0861-49a7-8c9c-bf45309ed5cd) now!*
+*Ready to supercharge your VR Project? Get [**VR Hands Procedural Grab Pro**](https://www.fab.com/listings/0d7009c6-ad1b-41d0-96d0-56ae95e59653) now!*
