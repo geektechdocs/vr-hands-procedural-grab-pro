@@ -1,4 +1,4 @@
-site_name: VR Hands Procedural Grab Pro
+site_name: Documentation
 #site_url: https://geektechdocs.github.io/vr-hands-procedural-grab-pro/
 theme:
 
@@ -25,7 +25,10 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.keys
-
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  
 extra_css:
   - stylesheets/extra.css
 
@@ -33,9 +36,11 @@ plugins:
   - search
   - glightbox
 
-extra:
-  analytics:
-    provider: google
-    property: G-F7SLJK3YKK
+#extra:
+  #analytics:
+  #  provider: google
+   # property: G-F7SLJK3YKK
 
  
+nav:
+  - VR Hands Procedural Grab Pro: index.md
