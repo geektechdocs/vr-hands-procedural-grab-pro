@@ -121,7 +121,15 @@ You can receive the **Human Hands** mesh pack for free by following these steps:
     - Review [Step 2 — Input Setup](#step-2-input-setup)
 
 ---
+### Extra Files
+#### UE 5.2 ####
+- [Download DefaultInput.ini](download/5.2/DefaultInput.ini)
+- [Download DefaultEngine.ini](download/5.2/DefaultEngine.ini)
+#### UE 5.6 ####
+- [Download DefaultInput.ini](download/5.6/DefaultInput.ini)
+- [Download DefaultEngine.ini](download/5.6/DefaultEngine.ini)
 
+---
 ## :material-email-outline: Need Help?
 
 Contact: [GeekTech](mailto:geektechcg@gmail.com)  
