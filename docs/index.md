@@ -128,6 +128,21 @@ You can receive the **Human Hands** mesh pack for free by following these steps:
     - Check Project Settings → Input to ensure the mapping contexts are listed.
     - Review [Step 2 — Input Setup](#step-2-input-setup)
 
+
+??? tip "Packaged standalone game (Android/Quest) crashed immediately when launched?"
+    - Update Plugin To the latest version
+    - Make sure your plugin’s .uplugin file includes Android in the Platform Allow List
+   
+    - Go to your plugin folder
+    - Open VRHandsProceduralGrab.uplugin in Notepad 
+    - Add Android PlatformAllowList **"PlatformAllowList": ["Win64", "Android"]**  
+    
+    For more information check out the video below  
+     [Video: VR Hands Procedural Grab Pro: 4. Packaging for Quest 2, 3 (Android Devices) ](https://www.youtube.com/watch?v=xzRWyjQ4GzE&feature=youtu.be)
+  
+
+   
+
 ---
 ### Extra Files
 #### UE 5.2 ####
