@@ -40,26 +40,54 @@
 - **Added:** `bSkipTwoHandedGrabLogic` *(ProceduralGrabComponent)*  
   Allows secondary hand grips without applying two-handed constraints  
   (e.g. off-hand weapon grips).
+  
+- **Improved:** Physics substepping tuned for better performance (runtime-only).  
+  Defaults are applied in `VRHandsProceduralGrab.cpp`:
+  ```cpp
+  PS->bSubstepping        = true;
+  PS->MaxSubstepDeltaTime = 0.0083f;
+  PS->MaxSubsteps         = 6;
+  ```
 
 
-## 🆕 Version 1.2.4 
-(Alyx Gravity Pull Update)
+  
+
+---
+
+## 🔧 Version 1.2.6
+
+**Added**
+
+- **Collision Safety Fallback**  
+  Added an extra safety check to ensure fallback to blocking collision when an item is released.  
+  Fixes rare cases where quickly grabbing and releasing an item could temporarily remove hand–world collision.
+
+- **Attachment Bone Rule Flexibility** *(ProceduralGrabComponent)*  
+  Added `bOverwriteBoneAttachment` and `SKAttachmentBone`.  
+  When enabled, the specified bone overrides the attachment bone defined in the Data Asset.
+
+- **Added:** Snap Turn support.
+
+---
+
+## 🔧 Version 1.2.4 (Alyx Gravity Pull Update)
+
 - **Improved:**  
   Disabled the speed-drop slow-motion effect when the item gets close to the hand, resulting in a more natural pull finish.  
-  *(You can toggle this behavior via `EnableSlowMo` on `ASC_RemoteGrabComponent` in the Details panel.)*
+  *(Toggle via `EnableSlowMo` on `ASC_RemoteGrabComponent`.)*
 
 - **Added:**  
   **New Catch Mode selection enum:**
-    - **Requires Second Trigger Press** — classic Alyx-style catch.  
-    - **Auto Catch When Near Hand** — automatically catches when item reaches the hand. *(Default)*
+  - **Requires Second Trigger Press** — classic Alyx-style catch  
+  - **Auto Catch When Near Hand** — automatically catches when item reaches the hand *(default)*
 
 ---
 
 ## 🔧 Version 1.2
 
-- Half-Life Alyx-like Gravity Pull mechanic (remote object grab)
-- Remote Grab Filter Priority (added enum for procedural grab components)
-- Updated `VRHandsProceduralGrab.uplugin`: added  
+- Half-Life Alyx–style Gravity Pull mechanic (remote object grab)
+- Remote Grab Filter Priority enum (procedural grab components)
+- Updated `VRHandsProceduralGrab.uplugin`:  
   **`"PlatformAllowList": ["Win64", "Android"]`**  
   *(Fixes instant crash on Android standalone devices — Quest 2/3)*
 
@@ -79,5 +107,3 @@
 - Improved finger trace accuracy
 - Added VRPrintString system for in-headset debugging
 - Optimized physics defaults
-
----
