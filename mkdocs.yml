@@ -1,4 +1,4 @@
-site_name: Documentation
+site_name: VR Hands Procedural Grab Pro
 #site_url: https://geektechdocs.github.io/vr-hands-procedural-grab-pro/
 theme:
 
@@ -42,6 +42,3 @@ extra:
     property: G-F7SLJK3YKK
 
  
-nav:
-  - VR Hands Procedural Grab Pro: index.md
-  - Changelog: changelog.md
