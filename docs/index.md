@@ -144,15 +144,35 @@ You can receive the **Human Hands** mesh pack for free by following these steps:
    
 
 ---
-### Extra Files
-#### UE 5.2 ####
-- [Download DefaultInput.ini](download/5.2/DefaultInput.ini)
-- [Download DefaultEngine.ini](download/5.2/DefaultEngine.ini)
-#### UE 5.6 ####
-- [Download DefaultInput.ini](download/5.6/DefaultInput.ini)
-- [Download DefaultEngine.ini](download/5.6/DefaultEngine.ini)
+
+## :material-gift: Extra Files
+
+### ⚙ Custom Gun Model
+<a href="ScreenShots/CustomGun.jpg" class="glightbox">
+  <img src="ScreenShots/CustomGun.jpg" alt="Custom Gun" style="display:block; margin:8px auto; width:25%; max-width:900px;">
+</a>
+
+<a href="download/VRHandsProceduralGrabProCustomGun.rar" download>
+⬇ Download Custom Gun Model from the Tutorial Video with Detached Parts (.rar)
+</a>
+
+Original Gun Model by eNse7en <https://sketchfab.com/3d-models/beretta-92g-brigadier-elite-ii-474cb73931114a669780783c44b5bb88>
 
 ---
+### ⚙ DefaultEngine.ini
+
+**UE 5.2**
+<a href="download/5.2/DefaultEngine.ini" download>
+⬇ Download DefaultEngine.ini
+</a>
+
+**UE 5.3 – 5.7**
+<a href="download/5.6/DefaultEngine.ini" download>
+⬇ Download DefaultEngine.ini
+</a>
+
+---
+
 ## :material-email-outline: Need Help?
 
 Contact: [GeekTech](mailto:geektechcg@gmail.com)  
