@@ -28,7 +28,32 @@
 </p>
 
 ---
-
+<p align="center">
+  <iframe 
+    width="900" 
+    height="506" 
+    src="https://www.youtube.com/embed/p5R9Bfr_tc0?si=BmXgKdMRiu9Pb5ZJ" 
+    title="Unreal Engine 5 VR: Create a Custom Gun with Physics-Based Slider" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen 
+    style="border-radius:12px; margin:12px auto; display:block;">
+  </iframe>
+</p>
+---
+<p align="center">
+  <iframe 
+    width="900" 
+    height="506" 
+    src="https://www.youtube.com/embed/AJoeABHaitQ?si=HH0PdmapBUxWYAuw" 
+    title="1.2.7 – Custom Pose Override & Pose Editor Update" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen 
+    style="border-radius:12px; margin:12px auto; display:block;">
+  </iframe>
+</p>
+---
 ## :material-rocket-launch: Quick Start Guide
 
 ### :material-cog-outline: Step 1 — Enable Plugin
