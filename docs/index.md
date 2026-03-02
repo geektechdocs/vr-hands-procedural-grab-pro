@@ -54,6 +54,26 @@
   </iframe>
 </p>
 ---
+<p align="center">
+  <iframe 
+    width="900" 
+    height="506" 
+    src="https://www.youtube.com/embed/Gqcer9RWi-g?si=Bxz-1_r4JqcQaUAI" 
+    title="VR Hands Procedural Grab Pro: VR74 Rifle Add-On" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen 
+    style="border-radius:12px; margin:12px auto; display:block;">
+  </iframe>
+</p>
+<p align="center">
+
+  <a href="https://www.fab.com/listings/d073f170-0f69-4def-896d-45e2b44e55b4" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/badge/Get%20on%20Fab-VR_Hands_Procedural_Grab_Pro-009688?logo=unrealengine&style=for-the-badge" alt="Get on Fab">
+  </a>
+
+</p>
+---
 ## :material-rocket-launch: Quick Start Guide
 
 ### :material-cog-outline: Step 1 — Enable Plugin
