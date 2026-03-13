@@ -186,6 +186,13 @@ You can receive the **Human Hands** mesh pack for free by following these steps:
      [Video: VR Hands Procedural Grab Pro: 4. Packaging for Quest 2, 3 (Android Devices) ](https://www.youtube.com/watch?v=xzRWyjQ4GzE&feature=youtu.be)
   
 
+??? tip "I can only snap turn left not right (index controllers issue) (fixed in 1.2.10:13)"
+    - Try to Reconnect pin from Start to Trigger 
+    - Add a modifier in IA_HandMeshProc_Turn (choose the Pressed option there)
+    ![alt text](image.png)
+
+
+
    
 
 ---
@@ -207,16 +214,16 @@ Custom Gun Model from the Tutorial Video with Detached Parts (.rar)
 Original Gun Model by eNse7en on [sketchfab](https://sketchfab.com/3d-models/beretta-92g-brigadier-elite-ii-474cb73931114a669780783c44b5bb88){target="_blank" rel="noopener"}
 
 ---
-### ⚙ DefaultEngine.ini
+### ⚙ DefaultEngine.ini and DefaultInput.ini
 
 **UE 5.2**
-<a href="download/5.2/DefaultEngine.ini" download>
- Download DefaultEngine.ini
+<a href="https://drive.google.com/drive/folders/1sNDOcVdcz8jNJStyAbkVBtSDPAwCUd3P?usp=drive_link" download>
+ Download
 </a>
 
 **UE 5.3 – 5.7**
-<a href="download/5.6/DefaultEngine.ini" download>
- Download DefaultEngine.ini
+<a href="https://drive.google.com/drive/folders/1VocuR0r65plYYtNutlTfcMrv0y_IGGfw?usp=drive_link" download>
+ Download
 </a>
 
 ---
