@@ -111,7 +111,7 @@
 
 ---
 
-### :material-cog-outline: Step 2.1 — For UE 5.3–5.6
+### :material-cog-outline: Step 2.1 — For UE 5.3–5.7
 1. Search Project Settings for **Input** → **Default Mapping Contexts**.  
 2. Add 3 array items and set:
    - `IMC_ProcGrab_Hand`
@@ -236,7 +236,7 @@ Plugin listing / updates: <https://www.fab.com/listings/0d7009c6-ad1b-41d0-96d0-
 ---
 
 <small>
-Plugin is developed and maintained by GeekTech. Compatible with Unreal Engine **5.2 – 5.6**.
+Plugin is developed and maintained by GeekTech. Compatible with Unreal Engine **5.2 – 5.7**.
 </small>
 
 ---
