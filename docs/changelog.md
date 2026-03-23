@@ -1,6 +1,32 @@
+## VR Hands Procedural Grab Pro
+
 # 🧾 Version History
 
-## 🆕 Version 1.2.7
+### 🔧 Version 1.3.0
+For compatibility with [climbing addon](climbingAddon.md) (physics will not be enabled for static mesh actors on grab)
+
+### 🔧 Version 1.2.10
+
+- Fixed input turn issue on Vive controllers
+
+- Fixed HandMeshOnGrabbed delegate not firing correctly
+
+    Delegate is now properly broadcast with valid references (HandMeshComponent, MotionController, GrabbedItem)
+
+Delegate fix in this update is crucial for proper functionality of the upcoming [VRHPG Pro Climbing add-on](climbingAddon.md)
+
+### 🔧 Version 1.2.9
+- Fixed: Now Hand Physics is enabled on begin play by default
+
+- Fixed: In Grab Component details bOverwriteBoneAttachment is now displayed correctly. Before it was hidden due the incorrect Category specified
+
+### 🔧 Version 1.2.8
+
+- Fixed: Now Hand Physics is enabled on begin play by default
+
+- Fixed: In Grab Component details bOverwriteBoneAttachment is now displayed correctly. Before it was hidden due the incorrect Category specified
+
+### 🔧 Version 1.2.7
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AJoeABHaitQ?si=vvJGSHLzXkzHRdNu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 **Added / Improved / Fixed**
@@ -55,9 +81,9 @@
 
 ---
 
-## 🔧 Version 1.2.6
+### 🔧 Version 1.2.6
 
-**Added**
+**Added:**
 
 - **Collision Safety Fallback**  
   Added an extra safety check to ensure fallback to blocking collision when an item is released.  
@@ -71,8 +97,8 @@
 
 ---
 
-## 🔧 Version 1.2.4 (Alyx Gravity Pull Update)
-
+### 🔧 Version 1.2.4 
+(Alyx Gravity Pull Update)
 - **Improved:**  
   Disabled the speed-drop slow-motion effect when the item gets close to the hand, resulting in a more natural pull finish.  
   *(Toggle via `EnableSlowMo` on `ASC_RemoteGrabComponent`.)*
@@ -84,7 +110,7 @@
 
 ---
 
-## 🔧 Version 1.2
+### 🔧 Version 1.2.0
 
 - Half-Life Alyx–style Gravity Pull mechanic (remote object grab)
 - Remote Grab Filter Priority enum (procedural grab components)
@@ -94,7 +120,7 @@
 
 ---
 
-## 🔧 Version 1.1
+### 🔧 Version 1.1.0
 
 - Removed unused Input Context
 - Reparented main Player Pawn → Character
@@ -103,7 +129,7 @@
 
 ---
 
-## 🔧 Version 1.0
+### 🔧 Version 1.0.0
 
 - Improved finger trace accuracy
 - Added VRPrintString system for in-headset debugging

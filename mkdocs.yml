@@ -1,5 +1,6 @@
 site_name: VR Hands Procedural Grab Pro
 #site_url: https://geektechdocs.github.io/vr-hands-procedural-grab-pro/
+
 theme:
 
   name: material
@@ -9,6 +10,11 @@ theme:
   features:
     - toc.integrate
     - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    #- navigation.indexes
+    
   
 
    
@@ -17,7 +23,22 @@ theme:
   palette:
     scheme: slate
     primary: deep orange
+    #primary: white
+   
+
+nav:
+  - Documentation:
+    - Quick Start Guide: index.md
+    - Video Tutorials: VRHPGVideoTutorials.md
+    - Change Log: changelog.md
+    - 📦 Plugin Add-Ons: Addons.md
+      
     
+  - Plugin Add-Ons:
+      - VR 74 Rifle Add-On: Addons.md
+      - Climbing Movement Add-On: climbingAddon.md
+
+
 markdown_extensions:
   - admonition
   - pymdownx.emoji:
