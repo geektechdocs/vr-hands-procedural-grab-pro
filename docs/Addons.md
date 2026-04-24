@@ -1,4 +1,54 @@
 # Plugin Add-Ons
+## 📦 VR FullBody IK Add-On
+
+<p align="center">
+  <iframe 
+    width="900" 
+    height="506" 
+    src="https://www.youtube.com/embed/9AC6nNlTxis?si=DYrv-NgbTW1eClZF" 
+    title="Youtube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen 
+    style="border-radius:12px; margin:12px auto; display:block;">
+  </iframe>
+</p>
+<p align="center">
+
+  <a href="https://www.fab.com/listings/ae8cf694-0e4f-46af-9a8c-0462b23256d8" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/badge/Get%20on%20Fab-Climbing_Addon-009688?logo=unrealengine&style=for-the-badge" alt="Get on Fab">
+  </a>
+
+</p>
+
+The FullBody Add-On extends VR Hands Procedural Grab Pro by introducing a fully procedural, physics-aware body system that seamlessly follows the player’s real-world movement. Designed specifically for VR, this system delivers natural body alignment, realistic motion, and immersive interaction without breaking existing functionality.
+
+
+
+[PLAYABLE DEMO](https://drive.google.com/drive/folders/1pWkUTfdL10IUmoMKKwZpR-MJJ_SCfh3G){ target="_blank" }
+
+[FAB PAGE](https://www.fab.com/listings/ae8cf694-0e4f-46af-9a8c-0462b23256d8){ target="_blank" }
+
+⚠️ [VR Hands Procedural Grab Pro Plugin](https://www.fab.com/listings/0d7009c6-ad1b-41d0-96d0-56ae95e59653){ target="_blank" } is required for this framework!
+
+---
+### ⚡Quick Start Guide
+
+- Add asset to your project
+  <p align="left">
+  <img src="/ScreenShots/AddToProjectClimbing.jpg"
+       alt="Add To Project"
+       style="display:block; margin:8px 0; width:30%; max-width:900px;">
+</p>
+- Add **`AC_FullBodyMovement`** component to your existing VR Pawn  
+- Add input context "IMC_FullBody" in your project settings
+  <p align="left">
+  <img src="/ScreenShots/addContextFullbody.jpg"
+       alt="Add To Project"
+       style="display:block; margin:8px 0; width:30%; max-width:900px;">
+</p>
+---
+
 ## 📦 VR74 Rifle Add-On
 <p align="center">
   <iframe 
@@ -24,7 +74,7 @@
 <a href="https://media.fab.com/image_previews/gallery_images/25a4fb75-7393-425f-ac8f-e69251f18fd5/4cb62c10-da71-4099-a3b1-affa0b13ef21.jpg" class="glightbox">
   <img src="https://media.fab.com/image_previews/gallery_images/25a4fb75-7393-425f-ac8f-e69251f18fd5/4cb62c10-da71-4099-a3b1-affa0b13ef21.jpg" alt="VR74Addon" style="display:block; margin:8px auto; width:100%; max-width:800px;">
 </a>
-Description
+
 Advanced weapon interaction add-on built specifically for VR Hands Procedural Grab Pro.
 
 This expansion extends the procedural hand system with a mechanically authentic KA-74 rifle interaction setup, fully integrated with physics-based grab logic and two-hand support.
@@ -83,7 +133,7 @@ Designed for Unreal Engine 5 VR projects, this add-on provides a production-read
 
 </p>
 
-Description
+
 Turn Your VR Interaction System into a Full Climbing Experience
 
 VRHPG Climbing Add-on extends VR Hands Procedural Grab Pro with a fully procedural, physics-driven climbing system designed specifically for VR.
